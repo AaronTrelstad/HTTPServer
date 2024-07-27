@@ -1,0 +1,3 @@
+/Users/aarontrelstad/HTTPServer/cmake-build-debug/CMakeFiles/HTTPServer.dir
+/Users/aarontrelstad/HTTPServer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aarontrelstad/HTTPServer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
