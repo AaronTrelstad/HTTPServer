@@ -13,7 +13,6 @@
 
 #define ERROR_404_PAGE "UI/404.html"
 #define INDEX_PAGE "UI/index.html"
-#define ME "UI/me.html"
 
 void handle_client(int client_socket);
 void send_response(int client_socket, const char* status, const char* content_type, const char *file_path);

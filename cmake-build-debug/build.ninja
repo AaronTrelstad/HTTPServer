@@ -67,6 +67,12 @@ build CMakeFiles/HTTPServer.dir/utils.c.o: C_COMPILER__HTTPServer_unscanned_Debu
   OBJECT_DIR = CMakeFiles/HTTPServer.dir
   OBJECT_FILE_DIR = CMakeFiles/HTTPServer.dir
 
+build CMakeFiles/HTTPServer.dir/database.c.o: C_COMPILER__HTTPServer_unscanned_Debug /Users/aarontrelstad/HTTPServer/database.c || cmake_object_order_depends_target_HTTPServer
+  DEP_FILE = CMakeFiles/HTTPServer.dir/database.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/HTTPServer.dir
+  OBJECT_FILE_DIR = CMakeFiles/HTTPServer.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target HTTPServer
@@ -75,7 +81,7 @@ build CMakeFiles/HTTPServer.dir/utils.c.o: C_COMPILER__HTTPServer_unscanned_Debu
 #############################################
 # Link the executable HTTPServer
 
-build HTTPServer: C_EXECUTABLE_LINKER__HTTPServer_Debug CMakeFiles/HTTPServer.dir/handler.c.o CMakeFiles/HTTPServer.dir/server.c.o CMakeFiles/HTTPServer.dir/utils.c.o
+build HTTPServer: C_EXECUTABLE_LINKER__HTTPServer_Debug CMakeFiles/HTTPServer.dir/handler.c.o CMakeFiles/HTTPServer.dir/server.c.o CMakeFiles/HTTPServer.dir/utils.c.o CMakeFiles/HTTPServer.dir/database.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
   OBJECT_DIR = CMakeFiles/HTTPServer.dir
   POST_BUILD = cd /Users/aarontrelstad/HTTPServer/cmake-build-debug && /Users/aarontrelstad/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E copy_directory /Users/aarontrelstad/HTTPServer/UI /Users/aarontrelstad/HTTPServer/cmake-build-debug/UI

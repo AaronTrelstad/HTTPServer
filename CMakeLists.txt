@@ -7,7 +7,8 @@ add_executable(HTTPServer
         handler.c
         server.h
         server.c
-        utils.c)
+        utils.c
+        database.c)
 
 set(STATIC_FILES_DIR ${CMAKE_SOURCE_DIR}/UI)
 
